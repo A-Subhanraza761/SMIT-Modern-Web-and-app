@@ -1,27 +1,27 @@
-        // First Question
+// First Question
 
-alert ("Welcome to First Project");
+alert("Welcome to First Project");
 
-        // Second Question
+// Second Question
 
-alert ("Error! Please enter a valid password.");
+alert("Error! Please enter a valid password.");
 
-        // Third Question
+// Third Question
 
-alert ("Welcome To JS Land...\nHappy Coding!");
+alert("Welcome To JS Land...\nHappy Coding!");
 
-        // Forth Question*/
+// Forth Question*/
 
-alert ("Welcome to JS Land...");
+alert("Welcome to JS Land...");
 
-alert ("Happy Coding!");
+alert("Happy Coding!");
 
-        // Fifth Question
+// Fifth Question
 
 alert("Hello... I can run JS through my web browser's console");
 
 console.log("Hello... I can run JS through my web browser's console");
 
-        // Sixth Question
+// Sixth Question
 
 

@@ -1,28 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chapter3</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        padding-top: 100px;
+      }
+
+      .home_button {
+        width: 150px;
+        height: 40px;
+        font-size: larger;
+        background-color: rgb(36, 18, 174);
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+      }
+    </style>
     <script src="./Chapter3.js"></script>
-</head>
-<body>
-    <h1>Subhan</h1>   
-  <script>
-    var birthYear = 1990;
-    document.write("My birth year is " + birthYear + "<br>");
-    document.write("Data type of my declared variable is " + typeof(birthYear));
-  </script>
+  </head>
+  <body>
+    <h1>Chapter 3</h1>
+    <script>
+      var birthYear = 1990;
+      document.write("My birth year is " + birthYear + "<br>");
+      document.write(
+        "Data type of my declared variable is " + typeof birthYear
+      );
+    </script>
+    <br />
+    <br />
+    <script>
+      var visitorName = "John Doe";
+      var productTitle = "T-shirt";
+      var quantity = 5;
 
-  <script>
-    var Visitor_name = prompt("Enter Your Name");
-    var Product_title = "Shirts";
-    var quantity = Number(prompt("Enter the quantity of item you want"));
+      document.write(
+        "<b>" +
+          visitorName +
+          "</b> ordered <b>" +
+          quantity +
+          " " +
+          productTitle +
+          "(s)</b> on XYZ Clothing store"
+      );
+    </script>
 
-    alert (Visitor_name + Product_title + quantity)
-
-
-
-  </script>
-</body>
+    <a href="./index.html">
+      <div class="home_button">
+        <p>Back to home</p>
+      </div>
+    </a>
+  </body>
 </html>
