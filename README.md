@@ -1,1 +1,0 @@
-# SMIT-Modern-Web-and-app
